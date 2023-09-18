@@ -15,11 +15,12 @@ The classification task involves speech sounds categorized by an observer under 
 Our objective is to fit three distinct psychometric functions based on Equations 1.19, 1.23, and 1.24 to the provided data. We will be making an assumption for the probability of guessing a correct response, denoted as Pguess, which is calculated as Pguess = 1/Nr, where Nr represents the number of response alternatives. Additionally, we treat the probability of lapsing, Plapse, as a free parameter in our model for a more accurate representation.
 
 ## Psycometric Functions Equations
-Ψ (I) = P (r = yes | I) = Φ ((I − cI)/σI)                    (1.19)
 
-Ψ (I) = (1 − Pguess) * Φ ((I − cI)/σI) + Pguess              (1.23)
+![image](https://github.com/adrianlopezpirvu/DTU/assets/116965884/93468873-1817-408a-b63c-016ec2d1f6dd)
 
-Ψ (I) = (1 − Pguess − Plapse) * Φ ((I − cI)/σI) + Pguess     (1.24)
+![image](https://github.com/adrianlopezpirvu/DTU/assets/116965884/35820d4e-fecf-4b37-9a9d-fe545543d756)
+
+![image](https://github.com/adrianlopezpirvu/DTU/assets/116965884/21930dca-63c5-4326-a087-496b5d6838df)
 
 Where:
 - Φ: Gaussian cumulative distribution function.
@@ -30,6 +31,7 @@ Where:
 - Plapse: Lapsing is when an observer fails to perform the task perhaps due to a lapse in attention.
 
 ## Notebook explanation
+
 In the first cell we import the libraries and functions we require for our code. 
 
 Then we use a Jupyter cell for defining each Psycometric function. We define placeholders for parameters 'c' and 'σ' which will be optimized later (initial guess). We plot them individually and then together.
@@ -37,8 +39,16 @@ Then we use a Jupyter cell for defining each Psycometric function. We define pla
 Later we define the Negative Log-likelihood; we can calculate it following next expression:
 ​![image](https://github.com/adrianlopezpirvu/DTU/assets/116965884/4aa53354-7c69-42dd-8f74-15ac6dcfd24b)
 
+It is important to have clear that, we calculate the likelihood of each stimulus and because we supose they are i.i.d, we can calculate the total Likelihood by multiplying them. However, we use the log-Likelihood so it is the sum of the 6 points.
 
+Now we move to the optimization part where we want to minimize (because it is the negative) our Likelihood. We use the minimize function from Sicpy.
 
+We add some prints and plots to compare the results between the Psycometrics functions with initial guess values for the parameters and the optimized ones. We also compare the results of the 3 psycometric functions.
 
+Also there are some coding and statisti explanations in the code.
+
+## Greetings
+
+Thank you very much to teacher Tobias Andersen for this inspiring exercice.
 
 
