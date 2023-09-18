@@ -36,7 +36,7 @@ In the first cell we import the libraries and functions we require for our code.
 
 Then we use a Jupyter cell for defining each Psycometric function. We define placeholders for parameters 'c' and 'σ' which will be optimized later (initial guess). We plot them individually and then together.
 
-Later we define the Negative Log-likelihood; we can calculate it following next expression:
+Later we define the Negative Log-likelihood, we can calculate it following next expression:
 ​![image](https://github.com/adrianlopezpirvu/DTU/assets/116965884/4aa53354-7c69-42dd-8f74-15ac6dcfd24b)
 
 It is important to have clear that, we calculate the likelihood of each stimulus and because we supose they are i.i.d, we can calculate the total Likelihood by multiplying them. However, we use the log-Likelihood so it is the sum of the 6 points.
