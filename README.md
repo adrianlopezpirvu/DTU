@@ -41,7 +41,7 @@ Later we define the Negative Log-likelihood, we can calculate it following next 
 
 It is important to have clear that, we calculate the likelihood of each stimulus and because we supose they are i.i.d, we can calculate the total Likelihood by multiplying them. However, we use the log-Likelihood so it is the sum of the 6 points.
 
-Now we move to the optimization part where we want to minimize (because it is the negative) our Likelihood. We use the minimize function from Sicpy.
+Now we move to the optimization part where we want to minimize, because it is the negative Likelihood. We use the minimize function from Sicpy.
 
 We add some prints and plots to compare the results between the Psycometrics functions with initial guess values for the parameters and the optimized ones. We also compare the results of the 3 psycometric functions.
 
