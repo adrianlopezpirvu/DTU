@@ -19,7 +19,7 @@ This project is centered around optimization using the Rosenbrock function, a co
 ## Usage
 
 1. Download and open `ExerciceWeek5.ipynb` in a Jupyter notebook environment.
-2. Import the provided functions from `BFGSmethod_line.py`, `newton.py`, `newton_line.py`, `steepestdescent.py`, or `steepestdescent_line.py`.
+2. Import the provided functions from `BFGSmethod_line.py`, `newton.py`, `newton_line.py`, `steepestdescent.py`, `steepestdescent_line.py`.
 3. Execute the notebook cells to run and evaluate the optimization algorithms on the Rosenbrock function.
 
 ## Contributing
@@ -29,7 +29,3 @@ If you'd like to contribute to this project, feel free to fork the repository an
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to further customize or add more details to suit your project's specific needs and context.
