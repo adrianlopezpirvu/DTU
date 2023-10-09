@@ -31,7 +31,7 @@ While this repository primarily serves as a personal portfolio, I am open to col
 
 ## Contact
 
-You can reach me at [lp6adi@gmail.com or on my [LinkedIn Profile](www.linkedin.com/in/adrián-lópez-pirvu-4b2936258).
+You can reach me at lp6adi@gmail.com or on my [LinkedIn Profile](www.linkedin.com/in/adrián-lópez-pirvu-4b2936258).
 
 
 Thank you for visiting my repository!
