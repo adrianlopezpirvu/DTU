@@ -26,4 +26,4 @@ Feel free to explore the projects and use them as references or resources for yo
 
 ## Contact
 
-You can reach me at [your-email@example.com] or on my [LinkedIn Profile](www.linkedin.com/in/your-profile).
+You can reach me at lp6adi@gmail.com or on my [LinkedIn Profile](www.linkedin.com/in/adrián-lópez-pirvu-4b2936258).
