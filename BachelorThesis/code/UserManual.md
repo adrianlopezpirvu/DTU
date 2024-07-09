@@ -52,7 +52,3 @@ Este directorio contiene dos archivos:
 ## 4. Uso de Archivos
 
 Todos los archivos están diseñados para ser fácilmente legibles y pueden ser utilizados como puntos de partida para otros proyectos. Se recomienda revisar y comprender cada archivo antes de su ejecución para asegurar su correcta implementación en proyectos futuros.
-
----
-
-Si tiene alguna pregunta o necesita más información, no dude en contactarnos.
